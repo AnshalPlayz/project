@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thallipoli AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Thallipoli AI</h1>
+        <div class="chat-container">
+            <div id="chat-box" class="chat-box"></div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Type your question...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+        <div class="voice-controls">
+            <button id="toggle-voice-btn">Enable Voice</button>
+            <label for="voice-select">Voice: </label>
+            <select id="voice-select"></select>
+            <label for="rate-control">Rate: </label>
+            <input type="range" id="rate-control" min="0.5" max="2" value="1" step="0.1">
+        </div>
+    </main>
+    <footer>
+        <p>AI made by <strong>appuzlota</strong></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
